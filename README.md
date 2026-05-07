@@ -31,7 +31,7 @@ La implementación se realizó utilizando dos instancias EC2:
 | Instancia | Función | Responsable |
 |---|---|---|
 | EC2 MASTER | Control Plane Kubernetes | Estudiante A |
-| EC2 WORKER | Nodo Worker Kubernetes | Estudiante A |
+| EC2 WORKER | Nodo Worker Kubernetes | Estudiante B |
 | Seguridad | RBAC + Policies + Trivy | Estudiante B |
 
 ---
