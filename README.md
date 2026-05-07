@@ -289,6 +289,9 @@ kubectl rollout status deployment/web-app -n t02-cloud-security
 ```
 deployment "web-app" successfully rolled out
 ```
+### Captura de Resultado Real
+![Project Logo](./ss/result2.png)
+
 ### Backup
 
 Se realizó un snapshot del volumen EBS desde AWS Console.
@@ -350,6 +353,9 @@ kubectl auth can-i delete pods --as=usuario -n t02-cloud-security
 ```
 no
 ```
+
+### Captura de Resultado Real
+![Project Logo](./ss/result2.png)
 
 # FASE 4 — NETWORK POLICIES
 
@@ -473,7 +479,7 @@ trivy image nginx:1.25 > trivy-report.txt
 ```
 # Problemas y Soluciones
 
-### Problema 1 — Permisos PEM
+## Problema 1 — Permisos PEM
 
 ## Causa
 
